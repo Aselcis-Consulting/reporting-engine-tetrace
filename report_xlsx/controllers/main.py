@@ -16,7 +16,8 @@ from odoo.http import (
     serialize_exception as _serialize_exception,
 )
 from odoo.tools import html_escape
-from odoo.tools.safe_eval import safe_eval, time
+from odoo.tools.safe_eval import safe_eval
+import time
 
 from odoo.addons.web.controllers.report import ReportController
 
