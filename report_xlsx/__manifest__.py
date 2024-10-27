@@ -13,6 +13,7 @@
     "depends": ["base", "web"],
     "demo": ["demo/report.xml"],
     "installable": True,
+    "external_dependencies": {"python": ["pdf417gen"]},
     "assets": {
         "web.assets_backend": [
             "report_xlsx/static/src/js/report/action_manager_report.esm.js",
